@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 const HomeView = () => import("../views/HomeView.vue");
 
 const router = createRouter({
-    history: createWebHistory("/shop"),
+    history: createWebHistory("/"),
     routes: [
         {
             path: "/",

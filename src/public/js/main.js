@@ -17576,7 +17576,7 @@ var HomeView = function HomeView() {
 };
 
 var router = (0,vue_router__WEBPACK_IMPORTED_MODULE_0__.createRouter)({
-  history: (0,vue_router__WEBPACK_IMPORTED_MODULE_0__.createWebHistory)("/shop"),
+  history: (0,vue_router__WEBPACK_IMPORTED_MODULE_0__.createWebHistory)("/"),
   routes: [{
     path: "/",
     name: "home",

@@ -15,6 +15,7 @@ services:
     volumes:
       - ./src:/home/sneakerator
       - ./src/storage/logs/php-fpm:/var/log/php-fpm
+      - ./node_scraper:/home/node_scraper
     env_file:
       - ./src/.env
   db:

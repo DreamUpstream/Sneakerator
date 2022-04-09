@@ -1,19 +1,4 @@
 const mix = require("laravel-mix");
-// const ESLintPlugin = require("eslint-webpack-plugin");
-
-mix.version();
-
-const options = {
-    extensions: [`js`, `vue`],
-};
-
-// mix.webpackConfig({
-//     plugins: [new ESLintPlugin(options)],
-// });
-
-if (mix.inProduction()) {
-    mix.sourceMaps();
-}
 
 /*
  |--------------------------------------------------------------------------
@@ -26,8 +11,21 @@ if (mix.inProduction()) {
  |
  */
 
-mix.js("resources/js/app.js", "public/js/app.js");
-mix.sass("resources/sass/app.scss", "public/css/app.css");
-// mix.copy("resources/webfonts", "public/webfonts", false);
+mix.js("resources/js/app.js", "public/js")
+    .vue()
+    .postCss("resources/css/app.css", "public/css", [
+        require("postcss-import"),
+        require("tailwindcss"),
+        require("autoprefixer"),
+    ])
+    .alias({
+        "@": "resources/js",
+    });
 
-mix.js("resources/js/main.js", "public/js/main.js").vue();
+if (mix.inProduction()) {
+    mix.version();
+}
+
+mix.sass("resources/sass/app.scss", "public/css/custom_app.css");
+
+mix.copy("resources/img", "public/img", false);

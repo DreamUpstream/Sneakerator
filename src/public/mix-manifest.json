@@ -1,5 +1,12 @@
 {
-    "/js/app.js": "/js/app.js?id=75aca74d5fb491a0aaf2a20629343f64",
-    "/js/main.js": "/js/main.js?id=3c9378811637764f56463ecc1fe51950",
-    "/css/app.css": "/css/app.css?id=f8de2472ec7a15e5252d3ddc4a1c53bd"
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/custom_app.css": "/css/custom_app.css",
+    "/img/sneakerator_logo.png": "/img/sneakerator_logo.png",
+    "/img/sneakerator_logo_transparent.png": "/img/sneakerator_logo_transparent.png",
+    "/img/sneakerator_logo_sneaker.png": "/img/sneakerator_logo_sneaker.png",
+    "/img/dollar.svg": "/img/dollar.svg",
+    "/img/trend.svg": "/img/trend.svg",
+    "/img/table.svg": "/img/table.svg",
+    "/img/auction.svg": "/img/auction.svg"
 }

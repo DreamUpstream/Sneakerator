@@ -2184,8 +2184,12 @@ __webpack_require__.r(__webpack_exports__);
     var expose = _ref.expose;
     expose();
     var state = (0,vue__WEBPACK_IMPORTED_MODULE_0__.reactive)({});
+
+    function getSc() {}
+
     var __returned__ = {
       state: state,
+      getSc: getSc,
       reactive: vue__WEBPACK_IMPORTED_MODULE_0__.reactive,
       axios: (axios__WEBPACK_IMPORTED_MODULE_1___default())
     };
