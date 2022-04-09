@@ -24792,28 +24792,52 @@ var _withScopeId = function _withScopeId(n) {
 };
 
 var _hoisted_1 = {
-  key: 0,
-  "class": "hidden fixed top-0 right-0 px-6 py-4 sm:block"
+  "class": "px-4 my-5 text-center"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Dashboard ");
+var _hoisted_2 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "d-block mx-auto mb-4 col-6 col-md-4 col-lg-2 img-fluid",
+    src: "img/sneakerator_logo.png",
+    alt: ""
+  }, null, -1
+  /* HOISTED */
+  );
+});
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Log in ");
+var _hoisted_3 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "col-lg-6 mx-auto"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "lead mb-4"
+  }, " Welcome to all-in-one sneaker reseller dashboard & selling advisor - quickly search and analyze your favorite sneaker models with our world’s most in depth online sneaker sales listing scraper and analyzer tool. Register now to gain access to our early beta platform! ")], -1
+  /* HOISTED */
+  );
+});
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Register ");
+var _hoisted_4 = {
+  key: 0,
+  "class": ""
+};
 
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"px-4 my-5 text-center\" data-v-317d1a6e><img class=\"d-block mx-auto mb-4 col-6 col-md-4 col-lg-2 img-fluid\" src=\"img/sneakerator_logo.png\" alt=\"\" data-v-317d1a6e><div class=\"col-lg-6 mx-auto\" data-v-317d1a6e><p class=\"lead mb-4\" data-v-317d1a6e> Quickly search and analyze your favorite sneakers of choice with Sneakerator, the one of the world’s most in depth online sneaker scraper and analyzer. Our speedy servers will surf the web in just a few moments after you enter your sneaker code. </p></div></div><div class=\"container px-4\" id=\"icon-grid\" data-v-317d1a6e><h2 class=\"pb-2 border-bottom\" data-v-317d1a6e>Features</h2><div class=\"row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5\" data-v-317d1a6e><div class=\"col d-flex align-items-start\" data-v-317d1a6e><img class=\"col-2 mx-3\" src=\"img/dollar.svg\" alt=\"\" data-v-317d1a6e><div data-v-317d1a6e><h4 class=\"fw-bold mb-0\" data-v-317d1a6e>Find sales</h4><p data-v-317d1a6e> Find sneaker sales volume by using our web scraper that scrapes the most popular sneaker reselling sites </p></div></div><div class=\"col d-flex align-items-start\" data-v-317d1a6e><img class=\"col-2 mx-3\" src=\"img/trend.svg\" alt=\"\" data-v-317d1a6e><div data-v-317d1a6e><h4 class=\"fw-bold mb-0\" data-v-317d1a6e>Analyze price trends</h4><p data-v-317d1a6e> We provide with the latest sneaker sales graphs &amp; data so you could save your time deciding if you should invest in </p></div></div><div class=\"col d-flex align-items-start\" data-v-317d1a6e><img class=\"col-2 mx-3\" src=\"img/table.svg\" alt=\"\" data-v-317d1a6e><div data-v-317d1a6e><h4 class=\"fw-bold mb-0\" data-v-317d1a6e>Selling table</h4><p data-v-317d1a6e> Keep all of your incoming, current and shipped out sneakers in all in one dashboard </p></div></div><div class=\"col d-flex align-items-start\" data-v-317d1a6e><img class=\"col-2 mx-3\" src=\"img/auction.svg\" alt=\"\" data-v-317d1a6e><div data-v-317d1a6e><h4 class=\"fw-bold mb-0\" data-v-317d1a6e>Auto-undercut</h4><p data-v-317d1a6e> [Coming in final release] Our bot will automatically undercut your sneaker prices in multiple selling platforms </p></div></div></div></div>", 2);
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Dashboard ");
+
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Register ");
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Log in ");
+
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"container px-4\" id=\"icon-grid\" data-v-317d1a6e><h2 class=\"pb-2 border-bottom\" data-v-317d1a6e>Features</h2><div class=\"row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5\" data-v-317d1a6e><div class=\"col d-flex align-items-start\" data-v-317d1a6e><img class=\"col-2 mt-1 mx-3\" src=\"img/dollar.svg\" alt=\"\" data-v-317d1a6e><div data-v-317d1a6e><h4 class=\"fw-bold mb-1\" data-v-317d1a6e>Find sales volume</h4><p data-v-317d1a6e> Get current sneaker sales volume in the most popular sneaker reselling sites by using our web scraper that provides you with the real-time price lists. </p></div></div><div class=\"col d-flex align-items-start\" data-v-317d1a6e><img class=\"col-2 mx-3 mt-1\" src=\"img/trend.svg\" alt=\"\" data-v-317d1a6e><div data-v-317d1a6e><h4 class=\"fw-bold mb-1\" data-v-317d1a6e>Analyze price trends</h4><p data-v-317d1a6e> Receive latest sales graphs &amp; data so you could decide if you should invest in the sneaker faster. </p></div></div><div class=\"col d-flex align-items-start\" data-v-317d1a6e><img class=\"col-2 mx-3 mt-1\" src=\"img/table.svg\" alt=\"\" data-v-317d1a6e><div data-v-317d1a6e><h4 class=\"fw-bold mb-1\" data-v-317d1a6e>Seller table</h4><p data-v-317d1a6e> Never miss or forget anything with having all details of your bought, incoming, selling, shipped out sneakers in all-in-one seller dashboard. </p></div></div><div class=\"col d-flex align-items-start\" data-v-317d1a6e><img class=\"col-2 mx-3 mt-1\" src=\"img/auction.svg\" alt=\"\" data-v-317d1a6e><div data-v-317d1a6e><h4 class=\"fw-bold mb-1\" data-v-317d1a6e>Auto-undercut</h4><p data-v-317d1a6e> [Coming in final release] Our bot will automatically undercut your sneaker prices in multiple selling platforms. </p></div></div></div></div>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Head"], {
     title: "Welcome"
-  }), $props.canLogin ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_ctx.$page.props.auth.user ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)($setup["Link"], {
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [_hoisted_2, _hoisted_3, $props.canLogin ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_4, [_ctx.$page.props.auth.user ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)($setup["Link"], {
     key: 0,
     href: _ctx.route('dashboard'),
-    "class": "text-sm text-gray-700 underline"
+    "class": "btn btn-primary"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_2];
+      return [_hoisted_5];
     }),
     _: 1
     /* STABLE */
@@ -24822,34 +24846,34 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* PROPS */
   , ["href"])) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
     key: 1
-  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Link"], {
-    href: _ctx.route('login'),
-    "class": "text-sm text-gray-700 underline"
-  }, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_3];
-    }),
-    _: 1
-    /* STABLE */
-
-  }, 8
-  /* PROPS */
-  , ["href"]), $props.canRegister ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)($setup["Link"], {
+  }, [$props.canRegister ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)($setup["Link"], {
     key: 0,
     href: _ctx.route('register'),
-    "class": "ml-4 text-sm text-gray-700 underline"
+    "class": "btn btn-success mx-2"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_4];
+      return [_hoisted_6];
     }),
     _: 1
     /* STABLE */
 
   }, 8
   /* PROPS */
-  , ["href"])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)], 64
+  , ["href"])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["Link"], {
+    href: _ctx.route('login'),
+    "class": "btn btn-primary mx-2"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_7];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href"])], 64
   /* STABLE_FRAGMENT */
-  ))])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _hoisted_5], 64
+  ))])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)]), _hoisted_8], 64
   /* STABLE_FRAGMENT */
   );
 }

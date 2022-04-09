@@ -11,32 +11,7 @@ defineProps({
 
 <template>
     <Head title="Welcome" />
-    <div v-if="canLogin" class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-        <Link
-            v-if="$page.props.auth.user"
-            :href="route('dashboard')"
-            class="text-sm text-gray-700 underline"
-        >
-            Dashboard
-        </Link>
 
-        <template v-else>
-            <Link
-                :href="route('login')"
-                class="text-sm text-gray-700 underline"
-            >
-                Log in
-            </Link>
-
-            <Link
-                v-if="canRegister"
-                :href="route('register')"
-                class="ml-4 text-sm text-gray-700 underline"
-            >
-                Register
-            </Link>
-        </template>
-    </div>
     <div class="px-4 my-5 text-center">
         <img
             class="d-block mx-auto mb-4 col-6 col-md-4 col-lg-2 img-fluid"
@@ -45,11 +20,34 @@ defineProps({
         />
         <div class="col-lg-6 mx-auto">
             <p class="lead mb-4">
-                Quickly search and analyze your favorite sneakers of choice with
-                Sneakerator, the one of the world’s most in depth online sneaker
-                scraper and analyzer. Our speedy servers will surf the web in
-                just a few moments after you enter your sneaker code.
+                Welcome to all-in-one sneaker reseller dashboard & selling
+                advisor - quickly search and analyze your favorite sneaker
+                models with our world’s most in depth online sneaker sales
+                listing scraper and analyzer tool. Register now to gain access
+                to our early beta platform!
             </p>
+        </div>
+        <div v-if="canLogin" class="">
+            <Link
+                v-if="$page.props.auth.user"
+                :href="route('dashboard')"
+                class="btn btn-primary"
+            >
+                Dashboard
+            </Link>
+
+            <template v-else>
+                <Link
+                    v-if="canRegister"
+                    :href="route('register')"
+                    class="btn btn-success mx-2"
+                >
+                    Register
+                </Link>
+                <Link :href="route('login')" class="btn btn-primary mx-2">
+                    Log in
+                </Link>
+            </template>
         </div>
     </div>
 
@@ -60,44 +58,45 @@ defineProps({
             class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"
         >
             <div class="col d-flex align-items-start">
-                <img class="col-2 mx-3" src="img/dollar.svg" alt="" />
+                <img class="col-2 mt-1 mx-3" src="img/dollar.svg" alt="" />
                 <div>
-                    <h4 class="fw-bold mb-0">Find sales</h4>
+                    <h4 class="fw-bold mb-1">Find sales volume</h4>
                     <p>
-                        Find sneaker sales volume by using our web scraper that
-                        scrapes the most popular sneaker reselling sites
+                        Get current sneaker sales volume in the most popular
+                        sneaker reselling sites by using our web scraper that
+                        provides you with the real-time price lists.
                     </p>
                 </div>
             </div>
             <div class="col d-flex align-items-start">
-                <img class="col-2 mx-3" src="img/trend.svg" alt="" />
+                <img class="col-2 mx-3 mt-1" src="img/trend.svg" alt="" />
                 <div>
-                    <h4 class="fw-bold mb-0">Analyze price trends</h4>
+                    <h4 class="fw-bold mb-1">Analyze price trends</h4>
                     <p>
-                        We provide with the latest sneaker sales graphs & data
-                        so you could save your time deciding if you should
-                        invest in
+                        Receive latest sales graphs & data so you could decide
+                        if you should invest in the sneaker faster.
                     </p>
                 </div>
             </div>
             <div class="col d-flex align-items-start">
-                <img class="col-2 mx-3" src="img/table.svg" alt="" />
+                <img class="col-2 mx-3 mt-1" src="img/table.svg" alt="" />
                 <div>
-                    <h4 class="fw-bold mb-0">Selling table</h4>
+                    <h4 class="fw-bold mb-1">Seller table</h4>
                     <p>
-                        Keep all of your incoming, current and shipped out
-                        sneakers in all in one dashboard
+                        Never miss or forget anything with having all details of
+                        your bought, incoming, selling, shipped out sneakers in
+                        all-in-one seller dashboard.
                     </p>
                 </div>
             </div>
             <div class="col d-flex align-items-start">
-                <img class="col-2 mx-3" src="img/auction.svg" alt="" />
+                <img class="col-2 mx-3 mt-1" src="img/auction.svg" alt="" />
                 <div>
-                    <h4 class="fw-bold mb-0">Auto-undercut</h4>
+                    <h4 class="fw-bold mb-1">Auto-undercut</h4>
                     <p>
                         [Coming in final release] Our bot will automatically
                         undercut your sneaker prices in multiple selling
-                        platforms
+                        platforms.
                     </p>
                 </div>
             </div>
